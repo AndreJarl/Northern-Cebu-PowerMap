@@ -132,13 +132,13 @@ export default function CebuBarangaysMap() {
 
 
       {/* Title */}
-      <h1 className="absolute w-[900px] top-2 sm:top-4 left-1/2 -translate-x-1/2 text-lg sm:text-2xl md:text-3xl font-bold bg-white/90 px-3 sm:px-4 py-1 sm:py-2 rounded-lg shadow z-[990] text-center">
+      <h1 className="absolute w-[300px] lg:w-[900px] top-2 sm:top-4 left-1/2 -translate-x-1/2 text-lg sm:text-2xl md:text-3xl font-bold bg-white/90 px-3 sm:px-4 py-1 sm:py-2 rounded-lg shadow z-[990] text-center">
         Northern Cebu Energization Status{" "}
         <span className="text-gray-600 text-xs sm:text-sm md:text-lg">(as of Oct. 2, 2025)</span>
       </h1>
 
       {/* Source */}
-      <p className="absolute top-14 sm:top-16 left-1/2 -translate-x-1/2 text-xs sm:text-sm text-gray-500 bg-white/80 px-2 sm:px-3 py-1 rounded shadow z-[1000] text-center">
+      <p className="absolute top-20 sm:top-16 left-1/2 -translate-x-1/2 text-xs sm:text-sm text-gray-500 bg-white/80 px-2 sm:px-3 py-1 rounded shadow z-[1000] text-center">
         Source: Facebook post of{" "}
         <span className="font-semibold">Cebu II Electric Cooperative Incorporated (CEBECO II)</span>
       </p>
