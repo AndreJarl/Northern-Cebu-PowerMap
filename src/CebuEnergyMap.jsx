@@ -86,7 +86,7 @@ export default function CebuBarangaysMap() {
 
       {/* Legend */}
      <div
-  className={`absolute right-4 bottom-4 lg:top-20 lg:right-4 bg-white shadow-xl rounded-xl p-4 sm:p-6 z-[1000] w-56 sm:w-64 lg:w-72 text-xs sm:text-sm lg:text-base transition-all duration-300`}
+  className={`absolute right-4 bottom-14 lg:top-20 lg:right-4 bg-white shadow-xl rounded-xl p-4 sm:p-6 z-[1000] w-56 sm:w-64 lg:w-72 text-xs sm:text-sm lg:text-base transition-all duration-300`}
   style={{ height: legendOpen ? "350px" : "100px" }}
 >
   {/* Eye toggle */}
