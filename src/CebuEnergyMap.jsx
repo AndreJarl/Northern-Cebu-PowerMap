@@ -7,17 +7,17 @@ import {Eye, EyeOff} from  "lucide-react"
 
 // Barangay energization data
 const barangayData = {
-  "Daanbantayan": 67,
-  "Medellin": 94,
-  "Bogo City": 24,
-  "Tabogon": 16,
-  "San Remigio": 22,
-  "Borbon": 21,
-  "Sogod": 67,
-  "Tabuelan": 67,
+  "Daanbantayan": 78,
+  "Medellin": 100,
+  "Bogo City": 62,
+  "Tabogon": 48,
+  "San Remigio": 37,
+  "Borbon": 58,
+  "Sogod": 89,
+  "Tabuelan": 83,
   "Tuburan": 93,
-  "Catmon": 60,
-  "Carmen": 86,
+  "Catmon": 70,
+  "Carmen": 100,
   "Danao City": 100,
   "Compostela": 100,
 };
@@ -148,7 +148,7 @@ export default function CebuBarangaysMap() {
       {/* Title */}
       <h1 className="absolute w-[300px] lg:w-[900px] top-2 sm:top-4 left-1/2 -translate-x-1/2 text-lg sm:text-2xl md:text-3xl font-bold bg-white/90 px-3 sm:px-4 py-1 sm:py-2 rounded-lg shadow z-[990] text-center">
         Northern Cebu Energization Status{" "}
-        <span className="text-gray-600 text-xs sm:text-sm md:text-lg">(as of Oct. 2, 2025)</span>
+        <span className="text-gray-600 text-xs sm:text-sm md:text-lg">(as of Oct. 3, 2025)</span>
       </h1>
 
       {/* Source */}
